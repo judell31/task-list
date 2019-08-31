@@ -22,7 +22,7 @@ public class ReadInput {
 
     public static String read(){
         System.out.println(opts);
-        System.out.println(prompt);
+        System.out.print(prompt);
         String scanned = input.nextLine();
         var parseInt = Integer.parseInt(scanned);
 

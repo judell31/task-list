@@ -14,10 +14,6 @@ public class TaskList {
         return taskList.size();
     }
 
-    public void removeItem(Integer remove){
-        taskList.remove(remove);
-    }
-
     public List list(){
         return taskList;
     }
